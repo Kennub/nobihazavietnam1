@@ -1,0 +1,36 @@
+{
+    "prefix": ">",
+    "owner_id": "683147403003822113",
+    "games": {
+        "translated_games": {
+            "nobi_2": {
+                "name": "Doraemon Nobita No Biohazard II",
+                "link": "https://terabox.com/s/1sc73ipr4NBZMUsn7y_etPQ"
+            },
+            "impossible": {
+                "name": "Nobita's Resident Evil Impossible",
+                "link": "http://www.mediafire.com/file/82pcel34t5zi1zc/"
+            }
+        },
+        "indie_games": {
+            "sewashi_the_sadist": {
+                "name": "Sewashi The Sadist",
+                "link": "http://www.mediafire.com/file/o1na5sv5d0e2fpr/"
+            },
+            "gaiden_demo": {
+                "name": "Resident Evil Gaiden DEMO",
+                "link": "https://www.mediafire.com/file/7c21jxv865u68vb/REGAIDEN-.rar/file"
+            }
+        },
+        "youtubers_games": {
+            "zeta_yt": {
+                "name": "Nobihaza Zeta",
+                "link": "https://drive.google.com/file/d/1zmAT0unaaxMmsmfZPA46rMwb5Z0Dl7oZ/view?usp=sharing"
+            },
+            "omega_kendin": {
+                "name": "Nobihaza Omega Kendin",
+                "link": "https://drive.google.com/file/d/1QAzuPsOKtuAOfg3yHxXA7niHJ-1x9j4S/view"
+            }
+        }
+    }
+}
