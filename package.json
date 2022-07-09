@@ -1,18 +1,18 @@
 {
-  "name": "discordjs-tutorial-bot",
+  "name": "nobihaza-vietnam",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A miscellaneous BOT for Nobihaza Vietnam Community.",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/bot.js",
-    "dev": "nodemon ./src/bot.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kennub",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3",
+    "discord.js": "^13.6.0",
     "dotenv": "^8.6.0",
     "ms": "^2.1.3"
   }
