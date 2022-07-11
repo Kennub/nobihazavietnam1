@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 module.exports.config = {
     name: "games",
-    description: "Gửi Link Game",
+    description: "Lấy Link Game",
     accessible_by: "members",
     dm_supported: true
 }
@@ -39,6 +39,6 @@ module.exports.run = (client, message, args) => {
         return;
     }
     var game = client.config.games.translated_games[args.join(" ").toLowerCase()] || client.config.games.indie_games[args.join(" ").toLowerCase()] || client.config.games.youtubers_games[args.join(" ").toLowerCase()];
-    if (!game) return client.sendEmbed('#ff0000', 'Link game', 'Không tìm thấy game này rồi, bạn có nhập nhầm tên game không đấy :frog:', 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
+    if (!game) return client.sendEmbed('#ff0000', 'Link game', 'Không tìm thấy game này rồi, bạn có nhập nhầm tên game không đấy? :frog:', 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
     client.sendEmbed('#ff0000', 'Link game', 'Link game nhé: ' + game.link + (game.additional_info ? ("\n" + game.additional_info) : ""), 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
 }
