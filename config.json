@@ -23,7 +23,7 @@
             }
         },
         "youtubers_games": {
-            "zeta": {
+            "zeta_yt": {
                 "name": "Nobihaza Zeta",
                 "link": "https://drive.google.com/file/d/1zmAT0unaaxMmsmfZPA46rMwb5Z0Dl7oZ/view?usp=sharing"
             },
@@ -31,8 +31,8 @@
                 "name": "Nobihaza Omega Kendin",
                 "link": "https://drive.google.com/file/d/1QAzuPsOKtuAOfg3yHxXA7niHJ-1x9j4S/view"
             },
-            "the_traitor_demo": {
-                "name": "Nobihaza The Traitor Demo",
+            "the_traitor": {
+                "name": "Nobihaza The Traitor",
                 "link": "https://drive.google.com/u/0/uc?id=1gZf4QGK7IYVucJIRs3iC0Fcy4C2fedSW&export=download"
             }
         }
