@@ -21,10 +21,12 @@ const fs = require("fs");
 client.commands = new Map();
 client.config = require("./config.json");
 
+//Đọc các lệnh trong folder commands
 const files = fs.readdirSync("./commands");
 files.forEach(file => {
     if (!file.endsWith(".js")) return;
     const name = file.split(".")[0];
+    console.log(name)
     const cmd = require("./commands/" + name);
     if (cmd) client.commands.set(name, cmd);
     console.log("- Loaded command: " + name);

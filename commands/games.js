@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 
 module.exports.config = {
-    name: "games",
-    description: "Gửi Link Game",
+    name: "Games",
+    description: "Lấy Link Game",
     accessible_by: "members",
     dm_supported: true
 }
@@ -35,6 +35,7 @@ module.exports.run = (client, message, args) => {
                 {name: "Dành Cho YouTubers", value: youtubers_games_text}
               )
               .setTimestamp()
+              .setFooter(text="Khong co gi dau")
         message.channel.send({embeds: [embed]})
         return;
     }

@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 
 module.exports.config = {
-    name: "games",
-    description: "Gửi Link Game",
+    name: "Trợ Giúp",
+    description: "Trợ Giúp",
     accessible_by: "members",
     dm_supported: true
 }
