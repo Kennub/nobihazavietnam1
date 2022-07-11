@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 module.exports.config = {
-    name: "Trợ Giúp",
+    name: "help",
     description: "Trợ Giúp",
     accessible_by: "members",
     dm_supported: true
