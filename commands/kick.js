@@ -11,7 +11,7 @@ module.exports.run = (client, message, args) => {
     if (!message.member.permissions.has(Discord.Permissions.FLAGS.KICK_MEMBERS))
       return client.sendEmbed("#ff0000", "Moderation", "Bạn tuổi gì xài lệnh này :rolling_eyes", "https://i.imgur.com/Ld1y87B.jpeg", "");
     if (args.length === 0)
-      return client.sendEmbed("#ff0000", "Moderation", "Ủa vậy bạn bảo mình kick ai :frog:", "https://i.imgur.com/Ld1y87B.jpeg", "");
+      return client.sendEmbed("#ff0000", "Moderation", "Kick ai?", "https://i.imgur.com/Ld1y87B.jpeg", "");
     const member = message.mentions.members.first();
     if (member) {
       member

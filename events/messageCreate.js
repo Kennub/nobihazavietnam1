@@ -17,7 +17,7 @@ module.exports = (client, message) => {
     var cmd = client.commands.get(command);
     if (cmd) {
         if (cmd.config.accessible_by == "owner" && message.author.id != client.config.owner_id) return client.sendEmbed("#ff0000", "Error", "Bạn tuổi gì xài lệnh này :rolling_eyes:", "https://i.imgur.com/Ld1y87B.jpeg", "");
-        if (!cmd.config.dm_supported && message.channel.type == "DM") return client.sendEmbed("#ff0000", "Error", "Không dùng lệnh này trên DM được nhé :frog:", "https://i.imgur.com/Ld1y87B.jpeg", "");
+        if (!cmd.config.dm_supported && message.channel.type == "DM") return client.sendEmbed("#ff0000", "Error", "Lệnh này không được hỗ trợ DM", "https://i.imgur.com/Ld1y87B.jpeg", "");
         cmd.run(client, message, args);
     }
 }

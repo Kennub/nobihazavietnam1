@@ -35,7 +35,7 @@ module.exports.run = (client, message, args) => {
                 {name: "Dành Cho YouTubers", value: youtubers_games_text}
               )
               .setTimestamp()
-              .setFooter(text="Đệ tử của"+ client.users.cache.get(client.config.owner_id).tag)
+              .setAuthor()
         message.channel.send({embeds: [embed]})
         return;
     }

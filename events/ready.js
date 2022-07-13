@@ -1,3 +1,3 @@
 module.exports = (client) => {
-    console.log("Ready as " + client.user.tag);
+    console.log("Đã đăng nhập với tư cách " + client.user.tag);
 };

@@ -20,15 +20,15 @@ module.exports.run = (client, message, args) => {
           member
             .roles.add('953282221169594398')
             .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã bị khâu mồm :moyai:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
-            .catch((err) => message.channel.send('**Em chịu anh ơi** :frog:'));
+            .catch((err) => client.sendEmbed("#ff0000", "Moderation", "Mình không đủ quyền hạn để làm việc này", "https://i.imgur.com/Ld1y87B.jpeg", ""));
           muted = true
-            
+
         } else {
           client.sendEmbed("#ff0000", "Moderation", "Hình như người này không có trong server", "https://i.imgur.com/Ld1y87B.jpeg", "");
         }
       } else {
         const member = message.mentions.members.first();
-        client.sendEmbed("#ff0000", "Moderation", `${member} đang bị khóa mõm`, "https://i.imgur.com/Ld1y87B.jpeg", "")
+        client.sendEmbed("#ff0000", "Moderation", `${member} đang bị khâu mõm`, "https://i.imgur.com/Ld1y87B.jpeg", "")
       }
     } else {
       const member = message.mentions.members.first();
