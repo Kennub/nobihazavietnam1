@@ -8,8 +8,6 @@ module.exports.config = {
     dm_supported: false
 }
 
-
-
 module.exports.run = (client, message, args) => {
     let time = args[1]
     const member = message.mentions.members.first();

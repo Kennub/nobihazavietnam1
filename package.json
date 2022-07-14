@@ -12,8 +12,13 @@
   "author": "Kennub",
   "license": "ISC",
   "dependencies": {
+    "better-sqlite3": "^7.6.1",
     "discord.js": "^13.6.0",
     "dotenv": "^8.6.0",
-    "ms": "^2.1.3"
+    "firebase-admin": "^11.0.0",
+    "ms": "^2.1.3",
+    "promise-mysql": "^5.2.0",
+    "quick.db": "^9.0.5",
+    "router": "^1.3.7"
   }
 }
