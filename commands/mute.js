@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-require("ms")
+const ms = require("ms")
 
 module.exports.config = {
     name: "mute",
