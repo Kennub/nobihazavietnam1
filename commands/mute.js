@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+require("ms")
 
 module.exports.config = {
     name: "mute",
@@ -19,7 +20,7 @@ module.exports.run = (client, message, args) => {
         if (member) {
           member
             .roles.add('953282221169594398')
-            .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã bị khâu mồm :moyai:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
+            .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã bị khâu mồm :smile:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
             .catch((err) => client.sendEmbed("#ff0000", "Moderation", "Mình không đủ quyền hạn để làm việc này", "https://i.imgur.com/Ld1y87B.jpeg", ""));
           muted = true
 
@@ -30,20 +31,20 @@ module.exports.run = (client, message, args) => {
         const member = message.mentions.members.first();
         client.sendEmbed("#ff0000", "Moderation", `${member} đang bị khâu mõm`, "https://i.imgur.com/Ld1y87B.jpeg", "")
       }
+
     } else {
       const member = message.mentions.members.first();
       if (muted == false){
         if (member) {
           member
             .roles.add('953282221169594398')
-            .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã bị khâu mồm trong ${ms(ms(time))} :moyai:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
-            //.catch((err) => message.channel.send('**Em chịu anh ơi** :frog:'));
+            .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã bị khâu mồm trong ${ms(ms(time))} :smile:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
           muted = true
           setTimeout(function(){
             member
               .roles.remove('953282221169594398')
-              .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã được mở khóa mồm :moyai:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
-              .catch((err) => client.sendEmbed("#ff0000", "Moderation", "Em chịu anh ơi :(", "https://i.imgur.com/Ld1y87B.jpeg", ""));
+              .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã được mở khóa mồm :smile:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
+              .catch((err) => client.sendEmbed("#ff0000", "Moderation", "Mình không đủ thẩm quyền để khóa mõm người này :(", "https://i.imgur.com/Ld1y87B.jpeg", ""));
             muted = false
           }, ms(time))
         } else {

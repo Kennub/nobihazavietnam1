@@ -9,13 +9,13 @@ module.exports.config = {
 
 module.exports.run = async (client, message, args) => {
     if (!message.member.permissions.has(Discord.Permissions.FLAGS.BAN_MEMBERS))
-      return client.sendEmbed("Không phải admin mà đòi ban á :rolling_eyes:");
-    if (args.length === 0) return client.sendEmbed("**Cho mị tên thằng đó đi**");
+      return client.sendEmbed('#ff0000', 'Moderation', `Bạn không đủ thẩm quyền để làm việc này, tên ngốc ạ :smile:`, 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg');
+    if (args.length === 0) return client.sendEmbed("#ff0000", "Moderation", `Ban ai thế?`, "https://i.imgur.com/Ld1y87B.jpeg", "");
     try {
       const user = await message.mentions.members.first().ban();
-      client.sendEmbed(`Chào bạn ${member} nhé`);
+      client.sendEmbed("#66ff33", "Moderation", `${member} đã cuốn gói khỏi server :smile:`, "https://i.imgur.com/Ld1y87B.jpeg", "");
     } catch (err) {
       console.log(err);
-      client.sendEmbed('#0099ff', 'Moderation', 'Link group nè: https://www.facebook.com/groups/nobihazavietnam', 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
+      //client.sendEmbed('#ff0000', 'Moderation', `Đã có lỗi xảy ra khi ban người này, có lẽ là do ||${err}||`, 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
     }
 }
