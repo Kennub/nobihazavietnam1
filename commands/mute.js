@@ -8,10 +8,11 @@ module.exports.config = {
     dm_supported: false
 }
 
-const member = message.mentions.members.first();
+
 
 module.exports.run = (client, message, args) => {
     let time = args[1]
+    const member = message.mentions.members.first();
     if (!message.member.permissions.has(Discord.Permissions.FLAGS.KICK_MEMBERS))
       return client.sendEmbed("#ff0000", "Moderation", "Bạn tuổi gì xài lệnh này :rolling_eyes", "https://i.imgur.com/Ld1y87B.jpeg", "");
 
