@@ -16,17 +16,17 @@ module.exports.run = (client, message, args) => {
 
     if (args.length === 0)
       return client.sendEmbed("#ff0000", "Moderation", "Ủa vậy bạn bảo mình mute ai :frog:", "https://i.imgur.com/Ld1y87B.jpeg", "");
-
-    if (member1.roles.cache.get("953282221169594398")){
-      if (member) {
+    if (member) {
+      if (member1.roles.cache.get('953282221169594398')){
         member
           .roles.remove('953282221169594398')
           .then((member) => client.sendEmbed("#66ff33", "Moderation", `${member} đã được mở khóa mồm :moyai:`, "https://i.imgur.com/Ld1y87B.jpeg", ""))
           .catch((err) => client.sendEmbed("#ff0000", "Moderation", "Em chịu anh ơi :(", "https://i.imgur.com/Ld1y87B.jpeg", ""));
       } else {
-        client.sendEmbed("#ff0000", "Moderation", "Hình như người này không có trong server", "https://i.imgur.com/Ld1y87B.jpeg", "");
+        client.sendEmbed("#ff0000", "Moderation", `${member} hiện đang không bị khóa mõm`, "https://i.imgur.com/Ld1y87B.jpeg", "")
       }
+
     } else {
-      client.sendEmbed("#ff0000", "Moderation", `${member} hiện đang không bị khóa mõm`, "https://i.imgur.com/Ld1y87B.jpeg", "")
+      client.sendEmbed("#ff0000", "Moderation", "Hình như người này không có trong server", "https://i.imgur.com/Ld1y87B.jpeg", "");
     }
 }
