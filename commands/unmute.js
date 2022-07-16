@@ -12,7 +12,8 @@ module.exports.run = (client, message, args) => {
       return client.sendEmbed("#ff0000", "Moderation", "Bạn tuổi gì xài lệnh này :rolling_eyes", "https://i.imgur.com/Ld1y87B.jpeg", "");
     if (args.length === 0)
       return client.sendEmbed("#ff0000", "Moderation", "Ủa vậy bạn bảo mình mute ai :frog:", "https://i.imgur.com/Ld1y87B.jpeg", "");
-    const member = message.mentions.members.first();
+    const allowedRole = message.guild.roles.find("name", "Học Sinh Bị Kỉ Luật")
+    const member = message.mentions.members.roles.has(allowedRole.id);
     if (muted == true){
       if (member) {
         member
