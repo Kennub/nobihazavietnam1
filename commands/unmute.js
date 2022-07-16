@@ -9,7 +9,7 @@ module.exports.config = {
 
 module.exports.run = (client, message, args) => {
     const member = message.mentions.members.first();
-    const member1 = guild.members.cache.get(member)
+    const member1 = message.members.cache.get(member)
     if (!message.member.permissions.has(Discord.Permissions.FLAGS.KICK_MEMBERS))
       return client.sendEmbed("#ff0000", "Moderation", "Bạn tuổi gì xài lệnh này :rolling_eyes", "https://i.imgur.com/Ld1y87B.jpeg", "");
     if (args.length === 0)
