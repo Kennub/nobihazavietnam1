@@ -34,7 +34,7 @@ module.exports.run = (client, message, args) => {
                 {name: "Dành Cho YouTubers", value: youtubers_games_text}
               )
               .setTimestamp()
-              .setFooter(client.user.tag, 'https://i.imgur.com/Ld1y87B.jpeg')
+              .setFooter("Đệ tử của " + client.users.get(client.config.owner_id), 'https://i.imgur.com/Ld1y87B.jpeg')
         message.channel.send({embeds: [embed]})
         return;
     }
