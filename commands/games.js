@@ -28,14 +28,13 @@ module.exports.run = (client, message, args) => {
         const embed = new Discord.MessageEmbed()
               .setColor('#ff0000')
               .setTitle('Trợ Giúp')
-              .setThumbnail('https://i.imgur.com/Ld1y87B.jpeg')
               .addFields(
                 {name: "Game Việt Hoá", value: translated_games_text},
                 {name: "Game Indie", value: indie_games_text},
                 {name: "Dành Cho YouTubers", value: youtubers_games_text}
               )
               .setTimestamp()
-              .setFooter(client.user.tag)
+              .setFooter(client.user.tag, 'https://i.imgur.com/Ld1y87B.jpeg')
         message.channel.send({embeds: [embed]})
         return;
     }
