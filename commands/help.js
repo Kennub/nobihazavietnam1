@@ -20,6 +20,6 @@ module.exports.run = (client, message, args) => {
         { name: 'Một số lệnh', value: text }
       )
       .setTimestamp()
-      .setFooter("Đệ tử của " + client.users.get(client.config.owner_id))
+      //.setFooter("Đệ tử của " + client.users.get(client.config.owner_id))
     message.channel.send({embeds: [embed]})
 }
