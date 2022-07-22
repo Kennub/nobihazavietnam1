@@ -1,6 +1,30 @@
 {
-    "prefix": ">",
-    "owner_id": "683147403003822113",
+    "info":{
+        "prefix": {
+            "name": "Prefix",
+            "value": ">"
+        },
+        "version": {
+            "name": "Phiên Bản",
+            "value": "v2.0"
+        },
+        "owner_id": {
+            "name": "ID người sở hữu",
+            "value": "683147403003822113"
+        },
+        "powered": {
+            "name": "Điều hành bởi",
+            "value": "Discord.js"
+        },
+        "module_version": {
+            "name": "Phiên bản module",
+            "value": "Discord.js v14"
+        },
+        "hosted": {
+            "name": "Hosted By ",
+            "value": "Heroku"
+        }
+    },
     "games": {
         "translated_games": {
             "nobi_2": {
