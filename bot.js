@@ -26,18 +26,18 @@ const files = fs.readdirSync("./commands");
 files.forEach(file => {
     if (!file.endsWith(".js")) return;
     const name = file.split(".")[0];
-    const cmd = require("./commands/" + name + ".js");
+    const cmd = require("./commands/" + name);
     if (cmd) client.commands.set(name, cmd);
-    console.log("-Loaded command: " + name);
+    console.log("-Loaded command: " + name + ".js");
 });
 
 const events = fs.readdirSync("./events");
 events.forEach(event => {
     if (!event.endsWith(".js")) return;
     const name = event.split(".")[0];
-    const e = require("./events/" + name + ".js");
+    const e = require("./events/" + name);
     if (e) client.on(name, e.bind(null, client));
-    console.log("-Loaded event: " + name);
+    console.log("-Loaded event: " + name + ".js");
 });
 
 process
