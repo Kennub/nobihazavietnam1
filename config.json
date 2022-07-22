@@ -28,8 +28,34 @@
                 "link": "https://drive.google.com/file/d/1zmAT0unaaxMmsmfZPA46rMwb5Z0Dl7oZ/view?usp=sharing"
             },
             "the_traitor": {
-                "name": "Nobihaza The Traitor",
+                "name": "Nobihaza The Traitor Demo",
                 "link": "https://drive.google.com/u/0/uc?id=1gZf4QGK7IYVucJIRs3iC0Fcy4C2fedSW&export=download"
+            }
+        },
+        "coming_soon": {
+            "gaiden_II": {
+                "name": "Nobihaza Zeta",
+                "link": "Sắp ra mắt"
+            },
+            "twd_remake": {
+                "name": "Nobihaza The Walking Dead MV Remake",
+                "link": "Sắp ra mắt"
+            },
+            "twd_remaster": {
+                "name": "Nobihaza The Walking Dead Remaster",
+                "link": "Sắp ra mắt"
+            },
+            "no_hope_vxa": {
+                "name": "Nobihaza No Hope VX Ace Remake",
+                "link": "Sắp ra mắt"
+            },
+            "neo_gaiden": {
+                "name": "Nobihaza Neo Gaiden",
+                "link": "Sắp ra mắt"
+            },
+            "omega_kendin_remake": {
+                "name": "Nobihaza Omega Kendin: Remake",
+                "link": "Sắp ra mắt"
             }
         }
     }
