@@ -7,20 +7,16 @@ module.exports.config = {
     dm_supported: true
 }
 
-module.exports.run = (client, message, args) => {
-    if (!args) {
-        var plot_text = client.config.gamerequirement.plot, system_text = client.config.gamerequirement.system, approval_text = client.config.gamerequirement.approval
-        const embed = new Discord.MessageEmbed()
-              .setColor('#3333ff')
-              .setTitle('Trợ Giúp')
-              .addFields(
-                {name: "Về cốt truyện", value: plot_text},
-                {name: "Về cách chơi, hệ thống và tài nguyên game", value: system_text},
-                {name: "Về đăng game và cách duyệt game", value: approval_text},
-              )
-              .setTimestamp()
-              .setFooter("Độc quyền của NobiRE VietNam")
-        message.channel.send({embeds: [embed]})
-        return;
-    }
+module.exports.run = (client, message) => {
+    const embed = new Discord.MessageEmbed()
+        .setColor('#3333ff')
+        .setTitle('Trợ Giúp')
+        .addFields(
+            {name: "Về cốt truyện", value: client.config.requirement.plot},
+            {name: "Về cách chơi, hệ thống và tài nguyên game", value: client.config.requirement.system},
+            {name: "Về đăng game và cách duyệt game", value: client.config.requirement.approval},
+        )
+        .setTimestamp()
+        .setFooter("Độc quyền của NobiRE VietNam")
+    message.channel.send({embeds: [embed]})
 }
