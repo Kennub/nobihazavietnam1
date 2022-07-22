@@ -19,6 +19,6 @@ module.exports.run = (client, message, args) => {
         { name: 'Một số lệnh', value: text }
       )
       .setTimestamp()
-      .setFooter("Đệ tử của " + client.users.cache.get(client.config.owner_id))
+      .setFooter("Độc quyền của NobiRE VietNam")
     message.channel.send({embeds: [embed]})
 }

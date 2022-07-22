@@ -21,7 +21,7 @@ const fs = require("fs");
 client.commands = new Map();
 client.config = require("./config.json");
 
-//Đọc các lệnh trong folder commands
+//Đọc các commands
 const files = fs.readdirSync("./commands");
 files.forEach(file => {
     if (!file.endsWith(".js")) return;
@@ -31,6 +31,7 @@ files.forEach(file => {
     console.log("-Loaded command: " + name + ".js");
 });
 
+//Đọc các events
 const events = fs.readdirSync("./events");
 events.forEach(event => {
     if (!event.endsWith(".js")) return;
