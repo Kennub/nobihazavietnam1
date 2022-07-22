@@ -15,11 +15,10 @@ module.exports.run = (client, message, args) => {
     const embed = new Discord.MessageEmbed()
       .setColor('#3333ff')
       .setTitle('Trợ Giúp')
-      .setDescription('Một số lệnh')
       .addFields(
         { name: 'Một số lệnh', value: text }
       )
       .setTimestamp()
-      //.setFooter("Đệ tử của " + client.users.get(client.config.owner_id))
+      .setFooter("Đệ tử của " + client.users.cache.get(client.config.owner_id))
     message.channel.send({embeds: [embed]})
 }

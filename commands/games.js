@@ -26,7 +26,7 @@ module.exports.run = (client, message, args) => {
             i++;
         }
         const embed = new Discord.MessageEmbed()
-              .setColor('#ff0000')
+              .setColor('#3333ff')
               .setTitle('Trợ Giúp')
               .addFields(
                 {name: "Game Việt Hoá", value: translated_games_text},
@@ -34,11 +34,11 @@ module.exports.run = (client, message, args) => {
                 {name: "Dành Cho YouTubers", value: youtubers_games_text}
               )
               .setTimestamp()
-              //.setFooter("Đệ tử của " + client.users.get(client.config.owner_id))
+              .setFooter("Đệ tử của " + client.users.cache.get(client.config.owner_id))
         message.channel.send({embeds: [embed]})
         return;
     }
     var game = client.config.games.translated_games[args.join(" ").toLowerCase()] || client.config.games.indie_games[args.join(" ").toLowerCase()] || client.config.games.youtubers_games[args.join(" ").toLowerCase()];
     if (!game) return client.sendEmbed('#ff0000', 'Link game', 'Không tìm thấy game này rồi, bạn có nhập nhầm tên game không đấy? :frog:', 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
-    client.sendEmbed('#ff0000', 'Link game', 'Link game nhé: ' + game.link + (game.additional_info ? ("\n" + game.additional_info) : ""), 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
+    client.sendEmbed('#66ff33', 'Link game', 'Link game nhé: ' + game.link + (game.additional_info ? ("\n" + game.additional_info) : ""), 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
 }

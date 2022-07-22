@@ -9,7 +9,7 @@ module.exports = (client, message) => {
               .setThumbnail(thumbnail)
               .setImage(image)
               .setTimestamp()
-              //.setFooter("Đệ tử của " + client.users.get(client.config.owner_id))
+              .setFooter("Đệ tử của " + client.users.cache.get(client.config.owner_id))
         message.channel.send({embeds: [embed]})
     }
     const prefix = client.config.prefix;
