@@ -12,7 +12,7 @@ module.exports = (client, message) => {
               .setFooter("Độc quyền của NobiRE VietNam")
         message.channel.send({embeds: [embed]})
     }
-    const prefix = client.config.prefix;
+    const prefix = client.config.info.prefix.value;
     if (!message.content.toLowerCase().startsWith(prefix.toLowerCase()) || message.author.bot) return;
     const [command, ...args] = message.content.trim().slice(prefix.length).split(/\s+/);
     var cmd = client.commands.get(command);

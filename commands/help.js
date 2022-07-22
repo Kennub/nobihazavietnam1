@@ -10,7 +10,7 @@ module.exports.config = {
 module.exports.run = (client, message, args) => {
     var text = "";
     client.commands.forEach(cmd => {
-        text += "`" + client.config.prefix + cmd.config.name + "`: " + cmd.config.description + "\n"
+        text += "`" + client.config.info.prefix.value + cmd.config.name + "`: " + cmd.config.description + "\n"
     })
     const embed = new Discord.MessageEmbed()
       .setColor('#3333ff')
