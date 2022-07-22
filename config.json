@@ -5,52 +5,74 @@
         "translated_games": {
             "nobi_2": {
                 "name": "Doraemon Nobita No Biohazard II",
+                "author": "aaa",
+                "status": "Full",
                 "link": "https://terabox.com/s/1sc73ipr4NBZMUsn7y_etPQ"
             },
             "impossible": {
                 "name": "Nobita's Resident Evil Impossible",
+                "author": "???",
+                "status": "Full",
                 "link": "http://www.mediafire.com/file/82pcel34t5zi1zc/"
             }
         },
         "indie_games": {
             "sewashi_the_sadist": {
                 "name": "Sewashi The Sadist",
+                "author": "Bồ Câu Đen",
+                "status": "Full",
                 "link": "http://www.mediafire.com/file/o1na5sv5d0e2fpr/"
             },
             "gaiden_demo": {
-                "name": "Resident Evil Gaiden DEMO",
+                "name": "Resident Evil Gaiden",
+                "author": "Bồ Câu Đen",
+                "status": "Demo",
                 "link": "https://www.mediafire.com/file/7c21jxv865u68vb/REGAIDEN-.rar/file"
             }
         },
         "youtubers_games": {
             "zeta_yt": {
                 "name": "Nobihaza Zeta",
+                "author": "Bồ Câu Đen",
+                "status": "Full",
                 "link": "https://drive.google.com/file/d/1zmAT0unaaxMmsmfZPA46rMwb5Z0Dl7oZ/view?usp=sharing"
             },
             "the_traitor": {
-                "name": "Nobihaza The Traitor Demo",
+                "name": "Nobihaza The Traitor",
+                "author": "Tuấn Minh",
+                "status": "Demo",
                 "link": "https://drive.google.com/u/0/uc?id=1gZf4QGK7IYVucJIRs3iC0Fcy4C2fedSW&export=download"
             }
         },
         "coming_soon": {
             "twd_remake": {
                 "name": "Nobihaza The Walking Dead MV Remake",
+                "author": "Trà Phương Nam",
+                "status": "Sắp ra mắt",
                 "link": "Sắp ra mắt"
             },
             "twd_remaster": {
                 "name": "Nobihaza The Walking Dead Remaster",
+                "author": "Kenji Lính Đánh Thuê/Tôi là Seina/Ren/Nguyễn Minh Trí/Yoru",
+                "status": "Sắp ra mắt",
                 "link": "Sắp ra mắt"
             },
             "no_hope_vxa": {
                 "name": "Nobihaza No Hope VX Ace Remake",
+                "author": "Yurinzy Kawai",
+                "status": "Sắp ra mắt",
                 "link": "Sắp ra mắt"
             },
             "neo_gaiden": {
                 "name": "Nobihaza Neo Gaiden",
+                "author": "Trà Phương Nam",
+                "status": "Sắp ra mắt",
                 "link": "Sắp ra mắt"
             },
             "omega_kendin_remake": {
                 "name": "Nobihaza Omega Kendin: Remake",
+                "author": "Mitsuki Goara",
+                "status": "Sắp ra mắt",
                 "link": "Sắp ra mắt"
             }
         }

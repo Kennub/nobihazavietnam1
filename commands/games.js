@@ -46,5 +46,5 @@ module.exports.run = (client, message, args) => {
     }
     var game = client.config.games.translated_games[args.join(" ").toLowerCase()] || client.config.games.indie_games[args.join(" ").toLowerCase()] || client.config.games.youtubers_games[args.join(" ").toLowerCase()] || client.config.games.coming_soon[args.join(" ").toLowerCase()];
     if (!game) return client.sendEmbed('#ff0000', 'Trợ Giúp', 'Không tìm thấy game này rồi, bạn có nhập nhầm tên game không đấy? :frog:', 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
-    client.sendEmbed('#66ff33', 'Trợ Giúp', 'Link game: ' + game.link + (game.additional_info ? ("\n" + game.additional_info) : ""), 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
+    client.sendEmbed('#66ff33', 'Trợ Giúp', 'Tác giả: ' + game.author + '\nTình trạng: ' + game.status + '\nLink game: ' + game.link + (game.additional_info ? ("\n" + game.additional_info) : ""), 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
 }
