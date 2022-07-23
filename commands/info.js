@@ -20,7 +20,7 @@ module.exports.run = (client, message, args) => {
             {name: "Thông tin", value: information}
         )
         .setTimestamp()
-        .setFooter("Độc quyền bởi NobiRE VietNam")
+        .setFooter("NobiRE VietNam all right reserved")
         message.channel.send({embeds: [embed]})
         return;
 }

@@ -8,7 +8,7 @@ module.exports.config = {
 }
 
 module.exports.run = (client, message, args) => {
-    if (!args[0]) return client.sendEmbed('#ff0000', 'Trợ Giúp', 'Hãy thử `' + client.config.prefix + "games help`", 'https://i.imgur.com/Ld1y87B.jpeg', '')
+    if (!args[0]) return client.sendEmbed('#ff0000', 'Trợ Giúp', 'Hãy thử `' + client.config.info.prefix.value + "games help`", 'https://i.imgur.com/Ld1y87B.jpeg', '')
     if (args[0] == "help") {
         var translated_games_text = "", indie_games_text = "", youtubers_games_text = "", coming_soon_games_text = "", i = 1;
         for (const key in client.config.games.translated_games) {

@@ -9,7 +9,7 @@ module.exports = (client, message) => {
               .setThumbnail(thumbnail)
               .setImage(image)
               .setTimestamp()
-              .setFooter("Độc quyền của NobiRE VietNam")
+              .setFooter("Độc quyền bởi NobiRE VietNam")
         message.channel.send({embeds: [embed]})
     }
     const prefix = client.config.info.prefix.value;

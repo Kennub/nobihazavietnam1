@@ -6,19 +6,19 @@
         },
         "version": {
             "name": "Phiên Bản",
-            "value": "v2.0"
+            "value": "v2.1"
         },
         "owner_id": {
-            "name": "ID người sở hữu",
-            "value": "683147403003822113"
+            "name": "Người sở hữu",
+            "value": "<@683147403003822113>"
         },
         "powered": {
             "name": "Điều hành bởi",
-            "value": "Discord.js"
+            "value": "discord.js"
         },
         "module_version": {
             "name": "Phiên bản module",
-            "value": "Discord.js v14"
+            "value": "discord.js v14"
         },
         "hosted": {
             "name": "Hosted By ",

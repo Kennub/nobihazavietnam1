@@ -19,6 +19,6 @@ module.exports.run = (client, message, args) => {
         { name: 'Một số lệnh', value: text }
       )
       .setTimestamp()
-      .setFooter("Độc quyền của NobiRE VietNam")
+      .setFooter("Độc quyền bởi NobiRE VietNam")
     message.channel.send({embeds: [embed]})
 }
