@@ -8,5 +8,5 @@ module.exports.config = {
 }
 
 module.exports.run = (client, message, args) => {
-    client.sendEmbed('#0099ff', 'Trợ Giúp', 'Link group nè: https://www.facebook.com/groups/nobihazavietnam', 'https://i.imgur.com/Ld1y87B.jpeg', 'https://i.imgur.com/Ld1y87B.jpeg')
+    client.sendEmbed('#0099ff', 'Trợ Giúp', 'Link group nè: https://www.facebook.com/groups/nobihazavietnam', '', 'https://i.imgur.com/Ld1y87B.jpeg')
 }

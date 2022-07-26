@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 
 module.exports.config = {
     name: "kick",
-    description: "Đuổi Thành Viên",
-    accessible_by: "members",
+    description: "Đuổi Thành Viên (Admin/Moderator only)",
+    accessible_by: "moderator",
     dm_supported: false
 }
 

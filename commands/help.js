@@ -16,7 +16,7 @@ module.exports.run = (client, message, args) => {
       .setColor('#3333ff')
       .setTitle('Trợ Giúp')
       .addFields(
-        { name: 'Một số lệnh', value: text }
+        { name: 'Các lệnh của BOT', value: text }
       )
       .setTimestamp()
       .setFooter("Độc quyền bởi NobiRE VietNam")

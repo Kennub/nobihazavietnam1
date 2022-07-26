@@ -9,15 +9,15 @@ module.exports.config = {
 
 module.exports.run = (client, message, args) => {
     var information = "", i = 1;
-        for (const key in client.config.info) {
-            information += i + ". " + client.config.info[key].name + ": `" + client.config.info[key].value + "`\n";
+        for (const key in client.config.bot_info) {
+            information += i + ". " + client.config.bot_info[key].name + ": `" + client.config.bot_info[key].value + "`\n";
             i++;
         }
     const embed = new Discord.MessageEmbed()
         .setColor('#3333ff')
         .setTitle('Trợ Giúp')
         .addFields(
-            {name: "Thông tin", value: information}
+            {name: "Thông tin BOT", value: information}
         )
         .setTimestamp()
         .setFooter("NobiRE VietNam all right reserved")

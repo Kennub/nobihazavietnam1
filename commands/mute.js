@@ -3,8 +3,8 @@ const ms = require("ms")
 
 module.exports.config = {
     name: "mute",
-    description: "Tắt Tiếng Thành Viên",
-    accessible_by: "members",
+    description: "Tắt Tiếng Thành Viên (Admin/Moderator only)",
+    accessible_by: "moderator",
     dm_supported: false
 }
 

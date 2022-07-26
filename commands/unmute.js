@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 
 module.exports.config = {
     name: "unmute",
-    description: "Bỏ Tắt Tiếng Thành Viên",
-    accessible_by: "members",
+    description: "Bỏ Tắt Tiếng Thành Viên (Admin/Moderator only)",
+    accessible_by: "moderator",
     dm_supported: false
 }
 

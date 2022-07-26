@@ -1,12 +1,12 @@
 {
-    "info":{
+    "bot_info":{
         "prefix": {
             "name": "Prefix",
             "value": ">"
         },
         "version": {
             "name": "Phiên Bản",
-            "value": "v2.1"
+            "value": "v2.2"
         },
         "owner_id": {
             "name": "ID người sở hữu",
@@ -25,7 +25,7 @@
             "value": "discord.js v14"
         },
         "hosted": {
-            "name": "Hosted By ",
+            "name": "Hosted By",
             "value": "Heroku"
         }
     },
