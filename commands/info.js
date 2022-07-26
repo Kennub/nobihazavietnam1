@@ -4,7 +4,7 @@ module.exports.config = {
     name: "info",
     description: "Xem thông tin về BOT",
     accessible_by: "members",
-    dm_supported: false
+    dm_supported: true
 }
 
 module.exports.run = (client, message, args) => {

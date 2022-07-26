@@ -9,12 +9,16 @@
             "value": "v2.1"
         },
         "owner_id": {
-            "name": "Người sở hữu",
-            "value": "<@683147403003822113>"
+            "name": "ID người sở hữu",
+            "value": "683147403003822113"
         },
         "powered": {
             "name": "Điều hành bởi",
             "value": "discord.js"
+        },
+        "node_version": {
+            "name": "Phiên bản NodeJS",
+            "value": "v16.9.0"
         },
         "module_version": {
             "name": "Phiên bản module",
@@ -101,7 +105,7 @@
             }
         }
     },
-    "requirement": {
+    "game-requirement": {
         "plot": "• Bạn có thể thoả sức sáng tạo cốt truyện của game theo ý bạn muốn, nhưng vẫn phải giữ cách chơi của game Nobihaza gốc hoặc ít nhất là Resident Evil.\n• Game của bạn cần có ít nhất một nhân vật đến từ Doraemon như Doraemon, Nobita hay Jaian. Trường hợp game chỉ xoay quanh các nhân vật phụ như Kenji hay Seina thì sẽ được cân nhắc.\n• Cốt truyện phải mạch lạc, rõ ràng, các câu thoại không được lủng củng, khó hiểu.\n• Dẫn dắt cốt truyện phải hợp lý.\n• Bạn vẫn được phép tạo các cảnh 18+ ẩn trong game, nhưng nó không được khuyến khích, và khi bạn tạo thì bắt buộc phải ẩn kĩ càng các cảnh đó đối với những người chơi bình thường, và chỉ mở cảnh khi người chơi đạt được một số điều kiện nhất định. Riêng các game có chứa nội dung liên quan đến chính trị hay lịch sử thì sẽ không được duyệt.\n• Game nên có cơ chế phần thưởng khi người chơi đã hoàn thành xong game.",
         "system": "• Game không được có các lỗi quá dễ nhận biết như lỗi xuyên tường hay kẻ địch vẫn di chuyển khi người chơi chuyển qua map khác hay đang ở đoạn hội thoại,...\n• Game nên có cách điều khiển giống các game Nobihaza khác (Nút mũi tên để di chuyển, Shift để rút súng, Z để bắn,...) để người chơi dễ làm quen. Nếu bạn dùng cách điều khiển khác thì hãy ghi hướng dẫn cụ thể, và khả năng game của bạn được duyệt cũng sẽ thấp hơn.\n• Nếu game sử dụng tài nguyên và/hoặc hệ thống của các game Nobihaza khác đã được đăng lên trước đó (trừ các game Nobihaza gốc), bạn cần gửi thêm bằng chứng chứng minh sự cho phép của tác giả gốc. Riêng trường hợp sử dụng hệ thống của Nobihaza Zeta hoặc Nobihaza MV Remake của s.k thì sẽ không được duyệt vì lý do đặc biệt.\n• Hình ảnh và âm thanh của game phải ổn, không quá sơ sài hay không phù hợp với cốt truyện của game. Riêng trường hợp làm ảnh title bằng MS Paint hay sử dụng âm thanh mặc định của RPG Maker quá nhiều thì sẽ không được chấp nhận.\n• Game của bạn không được phép chứa virus, nếu bạn phát hiện có virus thì hãy chỉnh sửa code của bạn cho đến khi không còn virus nữa. Trường hợp virus đến từ phần mềm bảo vệ tài nguyên, Player (phần mềm chơi game) hay do nhầm lẫn của phần mềm diệt virus mà bạn không thể sửa được thì khi đăng lên bạn phải ghi rõ cảnh báo.\n• Game của bạn là một game RPG Maker chứ không phải game Unity hay Unreal Engine, nên nếu game của bạn được làm trên RPG Maker từ MZ trở về trước thì game ít nhất phải chạy mượt 60FPS ở trên máy có CPU i5-6200U, 4GB RAM và không có card đồ hoạ (phân khúc 7 - 8 triệu). Trong trường hợp sau này game của bạn được làm trên RPG Maker Unite mới sắp ra mắt thì tôi sẽ cân nhắc lại cấu hình dành cho bản này.",
         "approval": "• Trước khi yêu cầu đăng game lên đây, vui lòng kiểm tra lại toàn bộ game của bạn và có thể nhờ người kiểm tra cùng nếu được, để sau khi đăng game thì game của bạn sẽ có ít lỗi nhất có thể.\n• Chỉ được đăng 2 bản sau của game: bản Demo (chứa một phần cốt truyện) và bản Full (chứa đầy đủ cốt truyện của game). Các bản khác của game như \"Ep 1\", \"Ep 2\" hay \"Ep 3\" sẽ không được chấp nhận!\n• Sau khi đăng game, nếu game của bạn có nhiều đánh giá tiêu cực thì các Quản trị viên sẽ cân nhắc xoá game của bạn ra khỏi group. (\"Đánh giá tiêu cực\" sẽ đảm bảo được chọn lọc kĩ càng trước khi lên lịch xoá game của bạn. Một \"đánh giá tiêu cực\" sẽ được chấp nhận khi đánh giá đó chỉ ra được game của bạn \"tiêu cực\" hay \"tệ hại\" ở chỗ nào, và khi các Quản trị viên kiểm tra thì nó là đúng sự thật.)\nTuy nhiên, trong trường hợp đặc biệt dưới đây thì game của bạn vẫn sẽ được giữ lại nếu đủ điều kiện:\n- Game của bạn là một game \"Fanmade\" có cốt truyện dựa theo cốt truyện của một game khác đã được đăng lên group này trước đó (ví dụ như phần tiếp theo của game gốc hay Another Edition,...), và đã có sự cho phép của tác giả gốc.\n- Game của bạn được tác giả gốc yêu cầu giữ lại, và game gốc cũng vẫn còn chưa bị xoá ở trên group này. - Game của bạn không quá \"tệ hại\", vẫn còn một điểm nào đó trong game có thể chấp nhận được."
