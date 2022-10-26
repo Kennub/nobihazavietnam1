@@ -6,7 +6,7 @@
         },
         "version": {
             "name": "Phiên Bản",
-            "value": "v2.3"
+            "value": "v2.4"
         },
         "owner_id": {
             "name": "ID người sở hữu",
@@ -18,7 +18,7 @@
         },
         "node_version": {
             "name": "Phiên bản NodeJS",
-            "value": "v16.9.0"
+            "value": "v16.16.0"
         },
         "module_version": {
             "name": "Phiên bản module",
