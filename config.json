@@ -23,10 +23,6 @@
         "module_version": {
             "name": "Phiên bản module",
             "value": "discord.js v14"
-        },
-        "hosted": {
-            "name": "Hosted By",
-            "value": "Heroku"
         }
     },
     "games": {
